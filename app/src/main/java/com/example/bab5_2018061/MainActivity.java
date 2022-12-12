@@ -55,8 +55,10 @@ public class MainActivity extends AppCompatActivity {
                     Intent a = new Intent(MainActivity.this, MainActivity2.class);
                     startActivity(a);
                 } else if (id == R.id.nav_sql) {
-                    Intent a = new
-                            Intent(MainActivity.this, MainActivity3.class);
+                    Intent a = new Intent(MainActivity.this, MainActivity3.class);
+                    startActivity(a);
+                } else if (id == R.id.nav_api) {
+                    Intent a = new Intent(MainActivity.this, MainActivity4.class);
                     startActivity(a);
                 }
                 return true;
